@@ -1,0 +1,117 @@
+{
+  "contractName": "RoyalPets",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/RoyalPets.sol\":\"RoyalPets\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/RoyalPets.sol\":{\"keccak256\":\"0x0dc8a958b7e93f673ca1565faa584763be1d970fbbe1574347f675648bdef7e9\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c08cc59b6e342bae649da3662de1d9d27a50f01ca79bb9f4429452c616a96c4b\",\"dweb:/ipfs/QmRvn9yAyPzVD9TDS8YjEoV8cSiTRUN7Q1jekBhPACgJQr\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220d71f682f7ac811e628eb6371b65efde9236cd57b7ee342b7812990e7d1ac34d564736f6c634300080d0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220d71f682f7ac811e628eb6371b65efde9236cd57b7ee342b7812990e7d1ac34d564736f6c634300080d0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:51:0:-:0;;;89:26;;;;;;;;;;66:51;;;;;;",
+  "deployedSourceMap": "66:51:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract RoyalPets {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "/Users/chrisp/Development/case/944270/contracts/RoyalPets.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/RoyalPets.sol",
+    "exportedSymbols": {
+      "RoyalPets": [
+        6
+      ]
+    },
+    "id": 7,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "RoyalPets",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "RoyalPets",
+        "nameLocation": "75:9:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "110:5:0",
+              "statements": []
+            },
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "100:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "110:0:0"
+            },
+            "scope": 6,
+            "src": "89:26:0",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "66:51:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:86:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.13+commit.abaa5c0e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2022-09-29T07:29:37.699Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
